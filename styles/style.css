@@ -4,18 +4,54 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: #ecc732;
+    height: 400px;
+    margin-bottom: 80px;
+}
+
 .header__navegacao {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    width: 100%;
+    max-width: 1356px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1380px) {
+    .header__navegacao {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
 }
 
-.header__navegacao__lista-links {
+.header__navegacao h1 {
+    display: flex;
+    justify-content: flex-start;
+    height: 40px;
+    line-height: 40px;
+}
+
+.header__navegacao__lista__links {
     list-style: none;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 40%;
+    justify-content: flex-end;
+    height: 40px;
+    line-height: 40px;
+}
+
+.header__navegacao__lista__link {
+    padding-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.header__navegacao__lista__link a {
+    color: #302302;
+    text-decoration: none;
 }
 
 .header__navegacao__hero img {
@@ -36,12 +72,14 @@
 }
 
 .main__titulo__principal {
+    padding-top: 10px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
 .main__sobre p {
     line-height: 1.5;
+    text-align: justify;
 }
 
 .main__cards__titulo,
