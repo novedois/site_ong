@@ -1,0 +1,38 @@
+.doacao__img {
+	margin: 0 auto;
+	width: 60%;
+	display: block;
+}
+
+.doacao__subtitulo {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.doacao__lista {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	list-style: none;
+	line-height: 1.5;
+	font-style: italic;
+}
+
+.contato__redes p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	margin-top: 10px;
+}
+
+.contato__redes__lista {
+	display: flex;
+	justify-content: space-around;
+	width: 50%;
+	margin: 10px auto;
+	font-size: 1.8em;
+	color: green
+}
+
+.contato__redes__lista a:hover {
+	text-shadow: 0 0 10px #5f5f5f3a;
+}
